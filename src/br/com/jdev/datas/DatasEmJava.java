@@ -47,6 +47,8 @@ public class DatasEmJava {
 
         System.out.println(simpleDateFormat.format(date));
         
+        System.out.println("Calendar hora formatada " + simpleDateFormat.format(calendar.getTime()));
+        
         simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd"); // formato padrão banco de dados
         
         System.out.println("Data em formato de banco de dados: " + simpleDateFormat.format(date));
